@@ -1,7 +1,6 @@
+import { notesTypes } from "src/types";
 
-
-
-export const dummyNotes = [
+export const dummyNotes: notesTypes[] = [
   {
     id:Math.random(),
     note: 'Learn about Studio.io',
